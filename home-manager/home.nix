@@ -76,6 +76,5 @@ in
     config.lib.file.mkOutOfStoreSymlink ./configs/idea/ideavimrc;
 
   home.file.".hammerspoon".source =
-    config.lib.file.mkOutOfStoreSymlink ./configs/hammerspoon;
+    config.lib.file.mkOutOfStoreSymlink ./config/hammerspoon;
 }
-

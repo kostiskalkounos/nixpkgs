@@ -1,0 +1,41 @@
+[include]
+  path = ~/.gitcredentials
+
+[init]
+  defaultBranch = main
+
+[core]
+  excludesfile = ~/.gitignore
+  pager = delta
+
+[color]
+  ui = auto
+
+[color "diff"]
+  meta = yellow
+
+[grep]
+  lineNumber = true
+
+[pull]
+  rebase = true
+
+[push]
+  default = simple
+
+[branch]
+  autosetupmerge = true
+  autosetuprebase = always
+
+[delta]
+  line-numbers = true
+  side-by-side = false
+  syntax-theme = Onedark
+
+  file-modified-label = modified:
+
+[interactive]
+  diffFilter = delta --color-only
+
+[merge]
+  conflictstyle = diff3

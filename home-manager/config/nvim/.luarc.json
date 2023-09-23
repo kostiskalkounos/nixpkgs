@@ -1,0 +1,11 @@
+{
+  "diagnostics.globals": [
+    "hs",
+    "vim",
+    "setup",
+    "has_formatter",
+    "local",
+    "ensure_installed",
+    "highlight"
+  ]
+}

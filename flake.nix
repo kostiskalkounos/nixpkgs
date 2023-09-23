@@ -69,10 +69,8 @@
               [
                 (import ./home-manager/home.nix inputs)
                 ./home-manager/modules/alacritty.nix
-                # ./home-manager/modules/osx.nix
-                ./home-manager/modules/cli.nix
                 ./home-manager/modules/git.nix
-                ./home-manager/modules/gpg.nix
+                ./home-manager/modules/karabiner.nix
                 ./home-manager/modules/kitty.nix
                 (import ./home-manager/modules/neovim.nix inputs)
                 ./home-manager/modules/python.nix
